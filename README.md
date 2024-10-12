@@ -1,4 +1,4 @@
-# JF-Locacoes (Português)
+# JF Locações e Transportes (Português)
 
 Este repositório contém o código-fonte do site oficial da JF Locações e Transportes, uma empresa especializada na locação de caminhões e serviços de transporte.
 
@@ -17,7 +17,7 @@ Este repositório contém o código-fonte do site oficial da JF Locações e Tra
 - Backend: PHP para envio de formulários (se aplicável);
 - Banco de dados: MySQL para armazenamento de informações de clientes e locações (se aplicável);
 
-# JF-Locacoes (English)
+# JF Locações e Transportes (English)
 
 This repository contains the source code for the official website of JF Locações e Transportes, a company specializing in truck rentals and transportation services.
 
