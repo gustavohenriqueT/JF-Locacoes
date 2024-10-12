@@ -14,8 +14,8 @@ Este repositório contém o código-fonte do site oficial da JF Locações e Tra
 
 - HTML5, CSS3 e JavaScript para a estrutura e interatividade do site;
 - Frameworks e bibliotecas: Bootstrap para a responsividade;
-- Backend: PHP para envio de formulários (se aplicável);
-- Banco de dados: MySQL para armazenamento de informações de clientes e locações (se aplicável);
+- Backend: PHP para envio de formulários;
+- Banco de dados: MySQL para armazenamento de informações de clientes e locações;
 
 # JF Locações e Transportes (English)
 
@@ -33,5 +33,5 @@ This repository contains the source code for the official website of JF Locaçõ
 
 - HTML5, CSS3, and JavaScript for the website structure and interactivity;
 - Frameworks and libraries: Bootstrap for responsive design;
-- Backend: PHP for form submission (if applicable);
-- Database: MySQL for storing client and rental information (if applicable);
+- Backend: PHP for form submission;
+- Database: MySQL for storing client and rental information;
