@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JF Locações e Transportes, especialista em locação de caminhões, com excelência em pontualidade e qualidade desde 2006.">
+    <title>JF Locações e Transportes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JF Locações e Transportes</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Início</a></li>
+                <li><a href="#trucks">Caminhões</a></li>
+                <li><a href="#contact">Orçamento</a></li>
+                <li><a href="#informacoes">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="intro" class="main">
+            <h2>Bem-vindo(a) à JF Locações e Transportes</h2>
+            <p>A JF Locações é uma empresa de locação de caminhões, com excelente estrutura e qualidade. Fundada em 2006, vem crescendo no ramo de locação e transportes, com a missão de atender a todos os clientes com excelência, pontualidade e eficácia.</p>
+        </section>
+
+        <section id="trucks" class="main">
+            <h2>Nossos Caminhões</h2>
+            <div class="truck-list">
+                <article class="truck-item">
+                    <img src="fotos/pipa 1.jpg" alt="Caminhão Pipa">
+                    <h3>Caminhão Pipa</h3>
+                    <p>Utilizado em diversas funções como irrigação, limpeza de pavimentos, controle de poeira, e abastecimento de água.</p>
+                </article>
+                <article class="truck-item">
+                    <img src="fotos/carroceria.jpg" alt="Caminhão Carroceria">
+                    <h3>Caminhão Carroceria</h3>
+                    <p>Capaz de transportar uma ampla variedade de cargas, inclusive veículos.</p>
+                </article>
+                <article class="truck-item">
+                    <img src="fotos/sider 2.jpg" alt="Caminhão Sider">
+                    <h3>Caminhão Sider</h3>
+                    <p>Ideal para o transporte de cargas volumosas, com carga e descarga pelas laterais, agilizando os processos.</p>
+                </article>
+                <article class="truck-item">
+                    <img src="fotos/sider 1.jpg" alt="Caminhão Baú">
+                    <h3>Caminhão Baú</h3>
+                    <p>Proporciona proteção à carga contra danos e condições climáticas adversas.</p>
+                </article>
+                <article class="truck-item">
+                    <img src="fotos/carreta-pipa.jpg" alt="Carreta Pipa">
+                    <h3>Carreta Pipa</h3>
+                    <p>Projetada para transporte seguro, protegendo a carga contra danos e clima.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="main">
+            <h2>Solicite um Orçamento</h2>
+            <form action="#" method="post" class="form-container">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="truck">Tipo de Caminhão:</label>
+                <select id="truck" name="truck">
+                    <option value="pipa">Caminhão Pipa</option>
+                    <option value="sider">Caminhão Sider</option>
+                    <option value="bau">Caminhão Baú</option>
+                    <option value="carroceria">Caminhão Carroceria</option>
+                </select>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="informacoes" class="main">
+            <h2>Informações para Contato</h2>
+            <p><strong>Telefone:</strong> (11) 99364-8272</p>
+            <p><strong>Telefone:</strong> (19) 3652-5075</p>
+            <p><strong>Email:</strong> <a href="mailto:jf-locacoes@uol.com.br">jf-locacoes@uol.com.br</a></p>
+        </section>
+    </main>
+</body>
+</html>
