@@ -59,16 +59,16 @@
 
         <section id="contact" class="main">
             <h2>Solicite um Orçamento</h2>
-            <form action="#" method="post" class="form-container">
+            <form id="contactForm" class="form-container">
                 <label for="name">Nome:</label>
                 <input type="text" id="name" name="name" required>
-
+        
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-
+        
                 <label for="phone">Telefone:</label>
                 <input type="tel" id="phone" name="phone" required>
-
+        
                 <label for="truck">Tipo de Caminhão:</label>
                 <select id="truck" name="truck">
                     <option value="pipa">Caminhão Pipa</option>
@@ -76,10 +76,10 @@
                     <option value="bau">Caminhão Baú</option>
                     <option value="carroceria">Caminhão Carroceria</option>
                 </select>
-
+        
                 <label for="message">Mensagem:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
-
+        
                 <button type="submit">Enviar</button>
             </form>
         </section>
@@ -90,6 +90,26 @@
             <p><strong>Telefone:</strong> (19) 3652-5075</p>
             <p><strong>Email:</strong> <a href="mailto:jf-locacoes@uol.com.br">jf-locacoes@uol.com.br</a></p>
         </section>
+        
     </main>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    (function() {
+        emailjs.init("oIp1MYO0MAYTMwnMr");
+    })();
+
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        emailjs.sendForm("service_j6f580k", "template_pjeaxsq", this)
+            .then(function() {
+                alert("Mensagem enviada com sucesso!");
+            }, function(error) {
+                alert("Erro ao enviar mensagem: " + JSON.stringify(error));
+            });
+    });
+</script>
+
 </body>
 </html>
